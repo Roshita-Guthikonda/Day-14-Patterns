@@ -1,0 +1,18 @@
+package com.codegnan.patterns;
+
+public class FloydsTriangle {
+
+	public static void main(String[] args) {
+		int rows=5;
+		char ch='A';
+		for(int i=1;i<=rows;i++) {//outer for loop for rows(1 to rows)
+			for(int j=1;j<=i;j++) {
+				System.out.print(ch);
+				ch++;
+			}
+			System.out.println();
+		}
+
+	}
+
+}
